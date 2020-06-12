@@ -1,0 +1,62 @@
+.page-header {
+    background-image: url("images/head_filler.jpg");
+    background-color: #faf5f0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    padding: 55px 20px 25px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: white;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 15px;
+}
+
+h3, h4 {
+    font-family: 'Lobster', cursive;
+
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: white;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.recipe {
+    margin-bottom: 70px;
+}
+
+.recipe h2 a, .recipe h2 a:visited {
+    color: #000000;
+}
+
+body{
+    background-color: #faf5f0;
+}
