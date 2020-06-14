@@ -21,9 +21,11 @@
                 {% block content %}
                     {% for recipe in recipes %}
                         <div class="recipe">
-                            <div class="date">
+                            <div class="properties">
                                 <p>published: {{ recipe.published_date }}</p>
-                            </div>
+                                <p>{% if recipe.is_vegan %} Vegan {% else %} &nbsp; {% endif %}</p>
+                                <p>{% if recipe.is_veggie %} Vegetarisch {% else %} &nbsp; {% endif %}</p>
+                             </div>
                             <h2><a href="{% url 'recipe_detail' pk=recipe.pk %}">{{ recipe.title }}</a></h2>
                             <p>{{ recipe.instruction|linebreaksbr }}</p>
                         </div>
